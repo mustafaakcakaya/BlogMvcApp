@@ -120,6 +120,7 @@
     </Compile>
     <Compile Include="Models\Blog.cs" />
     <Compile Include="Models\BlogContext.cs" />
+    <Compile Include="Models\BlogInıtializer.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

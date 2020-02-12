@@ -1,7 +1,11 @@
-﻿
-@{
-    ViewBag.Title = "Index";
-}
+﻿@Model  IEnumarable<BlogMvcApp.Models.Blog>
+    @{
+        ViewBag.Title = "Index";
+    }
 
-<h2>Index</h2>
+    <h2>Index</h2>
 
+    @foreach (var i in Model)
+    {
+        <p>@i.Baslik</p>
+    }

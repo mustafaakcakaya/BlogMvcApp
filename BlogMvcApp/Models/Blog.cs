@@ -13,7 +13,8 @@ namespace BlogMvcApp.Models
         public string Icerik { get; set; }
         public DateTime EklenmeTarihi { get; set; }
         public bool Onay { get; set; }
-        public int Anasayfa { get; set; }
+        public bool Anasayfa { get; set; }
+        public string Resim { get; set; }
 
         public int CategoryId { get; set; }
         public Category Category { get; set; }
