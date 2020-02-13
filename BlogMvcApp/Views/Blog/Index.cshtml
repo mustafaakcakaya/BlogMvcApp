@@ -37,7 +37,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Resim)
         </th>
-        <th></th>
+        <th style="width:180px"></th>
     </tr>
 
 @foreach (var item in Model) {
@@ -74,9 +74,9 @@
             @Html.DisplayFor(modelItem => item.Resim)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }, new { @class = "btn btn-warning btn-xs" }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class = "btn btn-primary btn-xs" }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class = "btn btn-danger btn-xs" })
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }, new { @class ="btn btn-warning btn-xs" })
+            @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class ="btn btn-primary btn-xs" })
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class ="btn btn-danger btn-xs" })
         </td>
     </tr>
 }
