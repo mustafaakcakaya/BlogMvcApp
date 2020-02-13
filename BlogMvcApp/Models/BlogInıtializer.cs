@@ -28,8 +28,8 @@ namespace BlogMvcApp.Models
 
             List<Blog> bloglar = new List<Blog>() 
             {
-                new Blog () { Baslik = "C#  Delegates Hakkında", EklenmeTarihi = DateTime.Now.AddDays(-10), Anasayfa =true, Onay = false, Icerik="C#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", Resim = "1.jpg", CategoryId=1  },
-                new Blog () { Baslik = "C#  Generic List Hakkında", EklenmeTarihi = DateTime.Now.AddDays(-10), Anasayfa =true, Onay = true, Icerik="C#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", Resim = "1.jpg", CategoryId=2  },
+                new Blog () { Baslik = "C#  Delegates HakkındaC#  ", EklenmeTarihi = DateTime.Now.AddDays(-10), Anasayfa =true, Onay = false, Icerik="C#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", Resim = "1.jpg", CategoryId=1  },
+                new Blog () { Baslik = "C#  Generic List HakkındaDelegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", EklenmeTarihi = DateTime.Now.AddDays(-10), Anasayfa =true, Onay = true, Icerik="C#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", Resim = "1.jpg", CategoryId=2  },
                 new Blog () { Baslik = "C#  Delegates Hakkında", EklenmeTarihi = DateTime.Now.AddDays(-30), Anasayfa =false, Onay = true, Icerik="C#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", Resim = "2.jpg", CategoryId=2  },
                 new Blog () { Baslik = "C#  Delegates Hakkında", EklenmeTarihi = DateTime.Now.AddDays(-20), Anasayfa =true, Onay = true, Icerik="C#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", Resim = "2.jpg", CategoryId=3  },
                 new Blog () { Baslik = "C#  Delegates Hakkında", EklenmeTarihi = DateTime.Now.AddDays(-5), Anasayfa =false, Onay = true, Icerik="C#  Delegates HakkındaC#  Delegates HakkındaC#  Delegates Hakkında", Resim = "2.jpg", CategoryId=4  },
