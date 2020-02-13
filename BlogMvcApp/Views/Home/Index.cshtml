@@ -22,7 +22,7 @@
             <p>
                 @blog.Aciklama
             </p>
-            <button class="btn btn-primary">Daha Fazla...</button>
+            @Html.ActionLink("Daha Fazla...","Details","Blog",new {id = blog.Id }, new {@class = "btn btn-primary" })
         </div>
         }
     </div>
